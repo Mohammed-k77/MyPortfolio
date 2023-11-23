@@ -13,6 +13,8 @@
 
 </head>
 <body>
+
+    <!--#region Header -->
     <header>
         <nav class="py-3 px-4 d-flex justify-content-between align-items-center px-5">
             <div class="logo" role="button">
@@ -26,22 +28,36 @@
                 <li><a class="nav-link nav-link-tranform" href="#">Contact me</a></li>
             </ul>
         </nav>
-            <div class="navigation">
-                <div class="row align-items-center">
-                    <p>Hi I'm</p>
-                    <h1 class="text-center">Mohammed <span class="last-name">Khaled</span></h1> 
-                    <ul class="social list-unstyled d-flex gap-5 mt-4 justify-content-center">
-                        <a href="https://www.linkedin.com/in/mohammed-khalied-3b7179222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa-brands fa-linkedin-in social-icon social-tranform"></a>
-                        <a href="https://www.facebook.com/profile.php?id=100004029163142&mibextid=eHce3h" class="fa-brands fa-facebook social-icon social-tranform"></a>
-                        <a href="https://instagram.com/m._khal3d?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" class="fa-brands fa-instagram social-icon social-tranform"></i>
-                        <a href="https://github.com/Mohammed-k77" class="fa-brands fa-github social-icon social-tranform"></a>
-                    </ul>
-                </div>
+        <div class="navigation">
+            <div class="row align-items-center">
+                <p>Hi I'm</p>
+                <h1 class="text-center">Mohammed <span class="last-name">Khaled</span></h1> 
+                <ul class="social list-unstyled d-flex gap-5 mt-4 justify-content-center">
+                    <a href="https://www.linkedin.com/in/mohammed-khalied-3b7179222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa-brands fa-linkedin-in social-icon social-tranform"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004029163142&mibextid=eHce3h" class="fa-brands fa-facebook social-icon social-tranform"></a>
+                    <a href="https://instagram.com/m._khal3d?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" class="fa-brands fa-instagram social-icon social-tranform"></i>
+                    <a href="https://github.com/Mohammed-k77" class="fa-brands fa-github social-icon social-tranform"></a>
+                </ul>
             </div>
-       
+        </div>
     </header>
     <main>
-        
+        <section class="about-me mt-5">
+            <h1 class="text-center my-5">About me</h1>
+            <div class="row py-4 px-4 mx-0 justify-content-center">
+                <div class="col-11 rounded-4 p-5 shadow-lg">
+                    <p class="text-center dispaly-2">Hello, I am Mohammed Khalid Mohammed Bin Hazem from Yemen,
+                         Hadramout, Al-Mukalla. I am an ambitious young man working
+                          in the field of web development, utilizing various technologies.
+                           I am eager to share more about myself with you.
+                        I possess experience in problem-solving, design, and database
+                         management. I have successfully designed several projects in this field,
+                          demonstrating my skills and passion for modern technologies. 
+                          I am hopeful and enthusiastic about the opportunities that lie ahead.
+                        Looking forward to discussing further details with you.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         

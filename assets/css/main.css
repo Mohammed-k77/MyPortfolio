@@ -25,7 +25,7 @@
 
 header{
     position: relative;
-    height: 60vh;
+    height: 100vh;
 }
 
 nav{
@@ -62,10 +62,12 @@ header::after{
     content: "";
     position: absolute;
     border-radius: 50%;
-    background-image: url(../img/ch12.jpg);
+    background-image: url(../img/IMG_1791.png);
+    background-color: var(--secondry-color);
     background-size: cover;
+    background-position: -18px -19px;
     left: 20%;
-    top: 40%;
+    top: 19%;
     height: 30vw;
     width: 30vw;
     border: 1px solid black;
@@ -167,3 +169,68 @@ nav .nav-link:hover{
 }
 
 /*#endregion Header */
+
+
+/*#region Main */
+
+/*#region About me */
+
+.about-me{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.about-me::after{
+    content: "";
+    height: 20rem;
+    transform: rotate(351deg);
+    right: -12%;
+    z-index: -1;
+    top: 17%;
+    position: absolute;
+    width: 100rem;
+    background: linear-gradient(to right, #99f2c8, #1f4037);
+}
+
+.about-me::before{
+    content: "";
+    height: 20rem;
+    transform: rotate(351deg);
+    right: -12%;
+    z-index: -1;
+    top: 70%;
+    position: absolute;
+    width: 100rem;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+}
+
+.about-me .col-11{
+    background-color: var(--white-color);
+}
+
+.about-me p{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: justify;
+}
+/*#endregion About me */
+
+
+
+
+/*#endregion Main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
